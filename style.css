@@ -22,4 +22,5 @@ body{
     text-transform: capitalize;
     font-weight: bolder;
     cursor: pointer;
+    margin-bottom: 40vh;
 }
