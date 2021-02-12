@@ -11,7 +11,7 @@ addTodoButton.addEventListener('click', function(){
 
     // line through
     paragraph.addEventListener('click', function(){
-        paragraph.style.textDecoration = "line-through";
+        paragraph.style.backgroundColor = "coral";
     })
 
     // dblclick remove
