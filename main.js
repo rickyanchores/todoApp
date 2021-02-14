@@ -9,6 +9,16 @@ addTodoButton.addEventListener('click', function(){
     todos.appendChild(paragraph);
     inputField.value = "";
 
+    // Hover Highlight mouseover
+    paragraph.addEventListener('mouseover', function(){
+        paragraph.style.color = "coral";    
+    })
+
+    // Hover Highlight mouseout
+    paragraph.addEventListener('mouseout', function(){
+        paragraph.style.color = "";    
+    })
+
     // line through
     paragraph.addEventListener('click', function(){
         paragraph.style.backgroundColor = "coral";
