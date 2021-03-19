@@ -30,3 +30,6 @@ addTodoButton.addEventListener('click', function(){
         todos.removeChild(paragraph);
     })
 })
+
+
+// THEMES
