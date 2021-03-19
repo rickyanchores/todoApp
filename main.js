@@ -33,3 +33,23 @@ addTodoButton.addEventListener('click', function(){
 
 
 // THEMES
+
+let light = document.querySelector('.light');
+let normal = document.querySelector('.normal');
+let dark = document.querySelector('.dark');
+
+light.addEventListener('mouseover', () => {
+    document.body.style.background = "silver";
+    document.body.style.color = "#333";
+    document.body.style.transition = "0.5s ease-in";
+})
+normal.addEventListener('mouseover', () => {
+    document.body.style.background = "";
+    document.body.style.color = "";
+    
+})
+dark.addEventListener('mouseover', () => {
+    document.body.style.background = "black";
+    document.body.style.color = "teal";
+    addTodoButton.body.style.background = "teal";
+})

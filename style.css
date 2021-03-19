@@ -35,3 +35,12 @@ button{
     padding: 0.5em 3em;
     cursor: pointer;
 }
+.light{
+    background: silver;
+}
+.normal{
+    background: white;
+}
+.dark{
+    background: #333;
+}
